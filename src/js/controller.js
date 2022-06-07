@@ -102,9 +102,7 @@ const controlAddRecipe = async function (newRecipe) {
   }
 }
 
-const newFeature = function () {
-  console.log('new feature')
-}
+
 const init = function () {
   bookmarksView.addHandlerRender(controlBookmarks)
   recipeView.addHandlerRender(contrtolRecipe)
@@ -113,6 +111,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResult)
   paginationView.addHandlerClick(controlPagination)
   addRecipeView.addHandlerUpload(controlAddRecipe)
-  newFeature()
+
 }
 init()
